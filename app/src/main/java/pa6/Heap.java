@@ -19,7 +19,7 @@ interface Heap {
      * @param value
      */
     void insert(int value);
-
+        
     /**
      * Deletes the root of the heap
      * For a max heap, the root is replaced with the last element in the heap and then bubbled down
